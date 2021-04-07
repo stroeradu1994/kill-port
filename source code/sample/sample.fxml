@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="4" prefHeight="229.0" prefWidth="257.0" vgap="4" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="201.0" minWidth="150.0" prefWidth="201.0" />
+      <ColumnConstraints maxWidth="99.0" minWidth="48.0" prefWidth="48.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TextField id="port" fx:id="port" prefHeight="25.0" prefWidth="275.0" GridPane.columnSpan="4" />
+      <Button defaultButton="true" mnemonicParsing="false" onAction="#kill" prefHeight="25.0" prefWidth="54.0" text="Kill" GridPane.columnIndex="4" />
+      <TextArea id="output" fx:id="output" prefColumnCount="2" prefHeight="200.0" prefWidth="209.0" GridPane.columnSpan="5" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
